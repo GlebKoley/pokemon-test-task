@@ -11,3 +11,37 @@
 #root {
    padding: 100px 0px;
 }
+
+@media (max-width: 975px) {
+   #root {
+      padding: 0px 0px;
+   }
+   .content {
+      padding: 20px;
+   }
+   .pokemon_container {
+      align-items: flex-start;
+   }
+}
+
+@media (max-width: 470px) {
+   .pokemon_container {
+      flex-direction: column;
+      height: auto;
+      align-items: center;
+   }
+   .pokemon_stats_container {
+      padding: 5px;
+      gap: 0px;
+   }
+   .pokemon_content {
+      gap: 5px;
+   }
+   .pokemon_name {
+      font-size: 25px;
+   }
+   .pokemon_image {
+      width: 150px;
+      height: 150px;
+   }
+}
