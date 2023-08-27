@@ -1,0 +1,12 @@
+.pokemon_list {
+   width: 50%;
+
+   display: flex;
+   flex-wrap: wrap;
+   row-gap: 10px;
+   column-gap: 6px;
+
+   font-style: normal;
+   font-weight: 500;
+   line-height: 100%;
+}

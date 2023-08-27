@@ -1,0 +1,13 @@
+* {
+   box-sizing: border-box;
+   font-family: "Raleway", sans-serif;
+}
+
+:root {
+   color: rgba(255, 255, 255, 0.87);
+   background-color: #131313;
+}
+
+#root {
+   padding: 100px 0px;
+}

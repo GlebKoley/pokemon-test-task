@@ -1,0 +1,9 @@
+.pokemon_container {
+   height: 500px;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   align-items: center;
+   gap: 12px;
+   color: #a0a0a0;
+}
