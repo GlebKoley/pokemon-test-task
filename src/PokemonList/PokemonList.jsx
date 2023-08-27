@@ -24,7 +24,7 @@ const PokemonList = ({ setCurrentPokemon }) => {
          </div>
       );
    }
-   console.log("render");
+
    return (
       <div className="pokemon_list">
          {pokemonData.length === 0 ? (
