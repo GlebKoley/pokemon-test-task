@@ -9,7 +9,7 @@ export const useGetPokemonById = () => {
       const pokemonId = +currentPokemon.match(/(?<=\/)[0-9]+/gm).join("");
       setIsLoading(true);
 
-      const request = await apiRequest.get(`pokemon/${pokemonId}`, { params: { limit: null }, signal: controller.signal });
+      const request = await apiRequest.get(`pokemon/${pokemonId}`, { params: { limit: null, offset: null }, signal: controller.signal });
       setIsLoading(false);
       return _transformPokemonData(request.data);
    };

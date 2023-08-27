@@ -4,12 +4,12 @@ import { PokemonStats } from "../PokemonStats/PokemonStats";
 import "./PokemonsContainer.css";
 
 const PokemonsContainer = () => {
-   const [currentPokemon, setCurrentPokemon] = useState("");
+   const [currentPokemon, setCurrentPokemon] = useState(null);
 
    return (
       <div className="pokemon_container">
          <MemoPokemonList setCurrentPokemon={setCurrentPokemon} />
-         <PokemonStats currentPokemon={currentPokemon} />
+         {currentPokemon !== null && <PokemonStats currentPokemon={currentPokemon} />}
       </div>
    );
 };

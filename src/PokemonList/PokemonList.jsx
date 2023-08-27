@@ -12,8 +12,6 @@ const PokemonList = ({ setCurrentPokemon }) => {
    useEffect(() => {
       if (pokemonData.length === 0) {
          getPokemonsList().then((pokemons) => setPokemonData(pokemons));
-      } else {
-         setCurrentPokemon(pokemonData[0]?.url);
       }
    }, [pokemonData]);
 
