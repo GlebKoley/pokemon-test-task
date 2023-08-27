@@ -1,11 +1,12 @@
 .pokemon_stats_container {
-   width: 50%;
-   height: 500px;
-   background-color: #000000;
-   padding: 44px 44px 16px 44px;
    display: flex;
    flex-direction: column;
    gap: 44px;
+   flex-basis: 50%;
+
+   height: 500px;
+   background-color: #000000;
+   padding: 44px 44px 16px 44px;
 }
 
 .pokemon_content {
