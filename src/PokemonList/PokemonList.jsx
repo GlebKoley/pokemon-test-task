@@ -15,8 +15,6 @@ const PokemonList = ({ setCurrentPokemon }) => {
       }
    }, []);
 
-   console.log("render");
-
    if (pokemonData.status) {
       return (
          <div className="pokemon_list">
