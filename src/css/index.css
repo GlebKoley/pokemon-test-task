@@ -44,9 +44,14 @@
       flex-direction: column;
       height: auto;
       align-items: center;
+      gap: 50px;
    }
+   .pokemon_list {
+      justify-content: center;
+   }
+
    .pokemon_stats_container {
-      padding: 5px;
+      padding: 20px;
       gap: 0px;
    }
    .pokemon_content {

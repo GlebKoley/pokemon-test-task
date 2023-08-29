@@ -13,7 +13,9 @@ const PokemonList = ({ setCurrentPokemon }) => {
       if (pokemonData.length === 0) {
          getPokemonsList().then((pokemons) => setPokemonData(pokemons));
       }
-   }, [pokemonData]);
+   }, []);
+
+   console.log("render");
 
    if (pokemonData.status) {
       return (

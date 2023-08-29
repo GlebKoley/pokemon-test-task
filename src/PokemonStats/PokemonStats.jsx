@@ -9,8 +9,6 @@ const PokemonStats = ({ currentPokemon }) => {
    const { getPokemonById, isLoading } = useGetPokemonById();
 
    useEffect(() => {
-      if (!currentPokemon) return;
-
       const cancelRequestController = new AbortController();
 
       getPokemonById(currentPokemon, cancelRequestController).then((pokemon) => setPokemonStats(pokemon));
