@@ -1,7 +1,7 @@
 import { memo, useEffect, useState } from "react";
-import { useGetPokemonsList } from "../hooks/useGetPokemonsList";
+import { useGetPokemonsList } from "../../hooks/useGetPokemonsList";
 import { Chip, CircularProgress } from "@mui/material";
-import { ErrorMessage } from "../UI/ErrorMessage/ErrorMessage";
+import { ErrorMessage } from "../../UI/ErrorMessage/ErrorMessage";
 
 import "./PokemonList.css";
 

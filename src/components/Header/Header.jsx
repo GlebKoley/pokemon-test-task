@@ -1,5 +1,5 @@
 import "./Header.css";
-import clickIcon from "../assets/icons/Icon.svg";
+import clickIcon from "../../assets/icons/Icon.svg";
 
 const Header = () => {
    return (

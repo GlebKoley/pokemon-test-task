@@ -1,6 +1,6 @@
 import { CircularProgress } from "@mui/material";
 import { useEffect, useState } from "react";
-import { useGetPokemonById } from "../hooks/useGetPokemonById";
+import { useGetPokemonById } from "../../hooks/useGetPokemonById";
 
 import "./PokemonStats.css";
 
